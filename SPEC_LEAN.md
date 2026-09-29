@@ -122,7 +122,7 @@ The generated file contains **only the method definition**, no `prove_correct`. 
 
 ### 3.1 Pure Function Mirrors
 
-For functions that are **pure** (see SPEC.md §5), `lsc` also generates a plain Lean `def` in `foo.types.lean`, inside a `namespace Pure`:
+For functions that are **pure** (see SPEC.md §5), `lsc` also generates a plain Lean `def` in `foo.types.lean`, inside a `namespace Pure`. Module constants are emitted in the same file, before the namespace, so the mirrors can use them:
 
 ```lean
 namespace Pure
