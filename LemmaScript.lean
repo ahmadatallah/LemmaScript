@@ -4,3 +4,4 @@ import Velvet.Std
 import LemmaScript.WPGenArrayM
 import LemmaScript.WPGenOption
 import LemmaScript.WPGenHashSet
+import LemmaScript.JSMath
